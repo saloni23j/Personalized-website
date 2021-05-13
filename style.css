@@ -1,0 +1,19 @@
+
+
+:root{
+    --color-one : #faeee7;
+    --color-two: #f8e1f4;
+    --color-three: #ffd3b4;
+    --color-four: #ffecda;
+    --color-five: #ffdada
+}
+
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+div{
+background-color: var(--color-three);
+}
