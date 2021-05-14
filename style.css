@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
 :root{
     --color-one : #faeee7;
     --color-two: #f8e1f4;
@@ -10,10 +10,27 @@
 
 body{
     margin: 0;
+    text-align: center;
 }
 h1{
-    margin: 0;
+    margin-top: 0;
+    padding: 15px;
+    font-family: 'Sacramento', cursive;
+
 }
-div{
-background-color: var(--color-three);
+.top-container{
+    background-color: var(--color-three);
+    position: relative;
+
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top : 70px;
+}
+
+.bottom-cloud{
+position: absolute;
+left: 200px;
+bottom : 150px;
 }
