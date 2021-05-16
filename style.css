@@ -69,13 +69,18 @@ bottom : 150px;
 
 }
 .img-profile{
-    max-width: 15%;
+    width: 10%;
    
     border-radius: 50%;
 }
 .intro{
     width: 30%;
     margin: auto; 
+}
+.skill-row{
+     width: 50%;
+     margin : 100px auto 100px auto;
+
 }
 .bottom-container{
     background-color: var(--color-one);
